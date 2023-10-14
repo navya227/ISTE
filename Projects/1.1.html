@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        .photo-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .photo {
+            width: 23%; 
+        }
+        body {
+            background: linear-gradient(to bottom, #ebcbe9, #b2b1e6);
+        }
+    </style>
+</head>
+<body style="background-color: rgb(214, 198, 230);">
+    <h1>Events</h1>
+
+    <div class="photo-container">
+        <div class="photo">
+            <img src="https://istemanipal.com/static/media/acumen.d9cd88f6.svg" alt="Acumen" width="100%">
+            <p>Acumen is the Flagship event of ISTE in  Tech Tatva</p>
+        </div>
+        <div class="photo">
+            <img src="https://www.alu-prospektstaender.de/media/image/bb/1f/5b/Workshop1.jpg" alt="Image 2" width="100%">
+            <p>Manipal Workshop</p>
+        </div>
+        <div class="photo">
+            <img src="https://pbs.twimg.com/profile_images/1383660243587002368/DJQEGX2o_400x400.jpg" alt="Image 3" width="100%">
+            <p>Geeks for Geeks Talk show </p>
+        </div>
+        <div class="photo">
+            <img src="https://www.manipalthetalk.org/wp-content/uploads/2022/09/SPPoemFI1.jpg" alt="Image 4" width="100%">
+            <p>Social Gathering held at the Student Plaza</p>
+        </div>
+    </div>
+
+    <h2>Student Registration</h2>
+    <form>
+        <label for="name">NAME:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="regNumber">REGISTRATION NUMBER:</label>
+        <input type="text" id="regNumber" name="regNumber" required><br><br>
+
+        <label for="events">SELECT EVENTS:</label><br><br>
+
+        <input type="checkbox" id="event1" name="events" value="Event 1">
+        <label for="event1">Event 1</label><br><br>
+
+        <input type="checkbox" id="event2" name="events" value="Event 2">
+        <label for="event2">Event 2</label><br><br>
+
+        <input type="checkbox" id="event3" name="events" value="Event 3">
+        <label for="event3">Event 3</label><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
